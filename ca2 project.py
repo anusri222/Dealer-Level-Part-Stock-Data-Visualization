@@ -1,14 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sn
-#EDA Process
-df=pd.read_csv("C:/Users/anusr/OneDrive/Desktop/CA 2 Project 12319748/Dealer Wise Particular Part Stock (2).csv")
-print(df)
-print(df.head())
-#Summary
-print(df.info())
-#describe statistics
+import seaborn as 
 print(df.describe())
 
 #checking null values
