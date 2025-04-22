@@ -9,7 +9,6 @@ print(df.head())
 #Summary
 print(df.info())
 #describe statistics
-print(df.describe())
 
 #checking null values
 t = df.isnull().sum()
