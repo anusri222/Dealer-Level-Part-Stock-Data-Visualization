@@ -6,7 +6,7 @@ import seaborn as sn
 df=pd.read_csv("C:/Users/anusr/OneDrive/Desktop/CA 2 Project 12319748/Dealer Wise Particular Part Stock (2).csv")
 print(df)
 print(df.head())
-#Summary
+
 print(df.info())
 
 print(df.describe())
