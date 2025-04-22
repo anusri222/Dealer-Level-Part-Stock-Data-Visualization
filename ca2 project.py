@@ -33,7 +33,6 @@ if 'Stock QTY' in df.columns:
 else:
     print(" 'Stock QTY' column not found!")
 
-# Show missing value summary
 print("\nMissing values per column:\n", df.isnull().sum())
 print("\nAny missing values at all?:", df.isnull().values.any())
 df['Zonal Office']=df['Zonal Office'].fillna('Unknown')
