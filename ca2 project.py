@@ -12,7 +12,7 @@ print(df.info())
 print(df.describe())
 
 #checking null values
-t = df.isnull().sum()
+
 print("Null Values count:",t)
 #Replacing null values
 print("Total null values:", df.isnull().sum().sum())
