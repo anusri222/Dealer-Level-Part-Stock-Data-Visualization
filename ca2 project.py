@@ -6,22 +6,7 @@ import seaborn as sn
 df=pd.read_csv("C:/Users/anusr/OneDrive/Desktop/CA 2 Project 12319748/Dealer Wise Particular Part Stock (2).csv")
 print(df)
 print(df.head())
-#Summary
-print(df.info())
-#describe statistics
-print(df.describe())
 
-#checking null values
-t = df.isnull().sum()
-print("Null Values count:",t)
-#Replacing null values
-print("Total null values:", df.isnull().sum().sum())
-print(df['Zonal Office'].isnull().sum())
-print(df['Area Office'].isnull().sum())
-print(df['Dealer Name'].isnull().sum())
-print(df['Inventory Location'].isnull().sum())
-print(df['Part Number'].isnull().sum())
-print(df['Part Description'].isnull().sum())
 print(df['Stock QTY'].isnull().sum())
 print(df['RATE'].isnull().sum())
 print(df['Amount'].isnull().sum())
