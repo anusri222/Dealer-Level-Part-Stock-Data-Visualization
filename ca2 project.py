@@ -9,10 +9,7 @@ print(df.head())
 #Summary
 print(df.info())
 #describe statistics
-
-#checking null values
-t = df.isnull().sum()
-print("Null Values count:",t)
+,t)
 #Replacing null values
 print("Total null values:", df.isnull().sum().sum())
 print(df['Zonal Office'].isnull().sum())
