@@ -26,6 +26,7 @@ print(df['RATE'].isnull().sum())
 print(df['Amount'].isnull().sum())
 print(df.columns.tolist())
 
+
 if 'Stock QTY' in df.columns:
     print(df['Stock QTY'] == df['Stock QTY'].fillna(0))  
     print(df['Stock QTY'])                               
