@@ -111,7 +111,7 @@ plt.title("Correlation Heatmap: Stock QTY, RATE")
 plt.show()
 #Objective 5:To visualize the distribution and frequency of stock quantities across all parts using a histogram.
 plt.figure(figsize=(6, 5))
-plt.hist(data=df, x="Stock QTY", bins=30,  color="red")
+plt.hist(data=df, x="Stock QTY", bins=30,  color="blue")
 plt.title("Histogram of Stock Quantity")
 plt.show()
 
