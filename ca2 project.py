@@ -109,6 +109,7 @@ sn.heatmap(corr_matrix, annot=True, cmap="coolwarm", fmt=".2f")
 plt.title("Correlation Heatmap: Stock QTY, RATE")
 plt.show()
 #Objective 5:To visualize the distribution and frequency of stock quantities across all parts using a histogram.
+
 plt.figure(figsize=(6, 5))
 plt.hist(data=df, x="Stock QTY", bins=30,  color="black")
 plt.title("Histogram of Stock Quantity")
