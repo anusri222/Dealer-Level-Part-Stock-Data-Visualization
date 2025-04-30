@@ -111,7 +111,7 @@ plt.show()
 #Objective 5:To visualize the distribution and frequency of stock quantities across all parts using a histogram.
 
 plt.figure(figsize=(6, 5))
-plt.hist(data=df, x="Stock QTY", bins=30,  color="black")
+plt.hist(data=df, x="Stock QTY", bins=30,  color="skyblue")
 plt.title("Histogram of Stock Quantity")
 plt.show()
 
